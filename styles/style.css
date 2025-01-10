@@ -4,6 +4,11 @@ nav{
     justify-content: space-between;
     margin: 24px 160px;
 }
+.web-title{
+    height: 30px;
+    width: 222px;
+    margin-left: 160px;
+}
 .fira-sans-regular {
     font-family: "Fira Sans", serif;
     font-weight: 400;
@@ -32,13 +37,19 @@ nav{
   /* button style end */
 
   /* banner styles start */
+  .banner{
+    display: flex;
+    background-color: #C6E4D6;
+    margin-right: 160px;
+    margin-left: 160px;
+    margin-bottom: 80px;
+  }
   .banner-content{
     height: 560px;
     width: 1280px;
     margin-right: 160px;
     margin-left: 160px;
     padding: 100px 80px;
-    background-color: #C6E4D6;
     border-radius: 15px;
   }
   .banner-title{
@@ -46,11 +57,16 @@ nav{
     font-size: 24px;
     color: #0E0E0E;
     opacity: 50%;
-    
   }
   .banner-description{
     font-size: 56px;
     font-weight: 600;
+    /* padding: 100px 80px; */
+  }
+  .banner-image{
+    height: 400px;
+    width: 474px;
+    padding: 100px 80px;
   }
   .nav-title{
     margin-left: 160px;
