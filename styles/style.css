@@ -172,7 +172,7 @@ nav{
     height: 256px;
   }
   .qoute-description{
-    background-image: url(/assets/quote-bg.png);
+    background-image: url(../assets/quote-bg.png);
     background-repeat: no-repeat;
     font-weight: 400;
     font-size: 16px;
