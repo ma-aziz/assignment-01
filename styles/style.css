@@ -164,3 +164,26 @@ nav{
     color: #0E0E0E;
     opacity: 70%;
   }
+  /* qoute section style */
+  .qoute{
+    margin-left: 160px;
+    margin-right: 160px;
+    width: 1280px;
+    height: 256px;
+  }
+  .qoute-description{
+    background-image: url(/assets/quote-bg.png);
+    background-repeat: no-repeat;
+    font-weight: 400;
+    font-size: 16px;
+    width: 1232px;
+    height: 96px;
+    color: #0E0E0E;
+    opacity: 80%;
+  }
+  .name{
+    font-weight: 600;
+    font-size: 20px;
+    color: #0E0E0E;
+    opacity: 80%;
+  }
