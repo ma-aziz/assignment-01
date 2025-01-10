@@ -187,3 +187,18 @@ nav{
     color: #0E0E0E;
     opacity: 80%;
   }
+/* news section style */
+.news-title{
+    font-weight: 700;
+    font-size: 40px;
+    color: $0E0E0E;
+}
+.news-description{
+    font-size: 16px;
+    color: #0E0E0E;
+    opacity: 70%;
+}
+.news{
+    margin-left: 160px;
+    margin-right: 160px;
+}
