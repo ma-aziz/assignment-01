@@ -34,6 +34,33 @@ nav{
     font-weight: 600;
     border: none;
   }
+  .btn-third-1{
+    background-color: #5490F5;
+    padding: 20px 11px;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 16px;
+    color: white;
+    border: none;
+  }
+  .btn-third-2{
+    background-color: #09A15C;
+    padding: 20px 11px;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 16px;
+    color: white;
+    border: none;
+  }
+  .btn-third-3{
+    background-color: #FFC239;
+    padding: 20px 11px;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 16px;
+    color: white;
+    border: none;
+  }
   /* button style end */
 
   /* banner styles start */
@@ -61,13 +88,15 @@ nav{
   .banner-description{
     font-size: 56px;
     font-weight: 600;
-    /* padding: 100px 80px; */
   }
   .banner-image{
     height: 400px;
     width: 474px;
     padding: 100px 80px;
+    background-repeat: no-repeat;
   }
+  /* banner section end */
+  /* nav section start */
   .nav-title{
     margin-left: 160px;
     margin-right: 190px;
@@ -78,4 +107,60 @@ nav{
   nav ul li{
     list-style: none;
   }
-  
+  /* nav section end */
+  /* Vision of Future section start */
+  .vision{
+    margin-left: 160px;
+    margin-right: 160px;
+    color: #0E0E0E;
+  }
+  .section-title{
+    width: 1280px;
+    height: 48px;
+    font-weight: 700;
+    font-size: 40px;
+  }
+  .section-description{
+    font-weight: 400;
+    font-size: 16px;
+  }
+  .vision-container{
+    display: flex;
+    justify-content: space-around;
+    gap: 24px;
+    padding: 32px;
+  }
+  .vision-1{
+    background-color: rgba(84, 144, 245, 0.2);
+    border-radius: 16px;
+    padding: 32px 32px;
+    width: 410px;
+    height: 325px;
+  }
+  .vision-2{
+    background-color: #C6E4D6;
+    border-radius: 16px;
+    padding: 32px 32px;
+    width: 410px;
+    height: 325px;
+  }
+  .vision-3{
+    background-color: #F7EBCF;
+    border-radius: 16px;
+    padding: 32px 32px;
+    width: 410px;
+    height: 325px;
+  }
+  .vision-title{
+    font-weight: 700;
+    font-size: 20px;
+    color: #0E0E0E;
+    opacity: 80%;
+    
+  }
+  .vision-description{
+    font-weight: 400;
+    font-size: 16px;
+    color: #0E0E0E;
+    opacity: 70%;
+  }
