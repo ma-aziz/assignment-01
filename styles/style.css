@@ -9,7 +9,7 @@ nav{
     font-weight: 400;
     font-style: normal;
   }
-  /* shared styles */
+  /* button styles start*/
   .btn-primary{
     background-color: #F5F5F5;
     color: #006A50;
@@ -28,6 +28,29 @@ nav{
     font-size: 18px;
     font-weight: 600;
     border: none;
+  }
+  /* button style end */
+
+  /* banner styles start */
+  .banner-content{
+    height: 560px;
+    width: 1280px;
+    margin-right: 160px;
+    margin-left: 160px;
+    padding: 100px 80px;
+    background-color: #C6E4D6;
+    border-radius: 15px;
+  }
+  .banner-title{
+    font-weight: 500;
+    font-size: 24px;
+    color: #0E0E0E;
+    opacity: 50%;
+    
+  }
+  .banner-description{
+    font-size: 56px;
+    font-weight: 600;
   }
   .nav-title{
     margin-left: 160px;
