@@ -25,6 +25,9 @@ nav{
     width: 116px;
     border-radius: 8px;
   }
+  .btn-primary:hover{
+    background-color: #4159B8;
+  }
   .btn-secondary{
     background-color: #006A50;
     color: white;
@@ -33,6 +36,9 @@ nav{
     font-size: 18px;
     font-weight: 600;
     border: none;
+  }
+  .btn-secondary:hover{
+    background-color: #4159B8;
   }
   .btn-third-1{
     background-color: #5490F5;
@@ -43,6 +49,9 @@ nav{
     color: white;
     border: none;
   }
+  .btn-third-1:hover{
+    background-color:#4159B8;
+  }
   .btn-third-2{
     background-color: #09A15C;
     padding: 20px 11px;
@@ -52,6 +61,9 @@ nav{
     color: white;
     border: none;
   }
+  .btn-third-2:hover{
+    background-color:#4159B8;
+  }
   .btn-third-3{
     background-color: #FFC239;
     padding: 20px 11px;
@@ -60,6 +72,9 @@ nav{
     font-size: 16px;
     color: white;
     border: none;
+  }
+  .btn-third-3:hover{
+    background-color:#4159B8;
   }
   .btn-share{
     width: 139px;
@@ -72,7 +87,9 @@ nav{
     color: #FFFFFF;
     border: none;
   }
-  
+  .btn-share:hover{
+    background-color:#4159B8;
+  }
   /* button style end */
 
   /* banner styles start */
@@ -293,6 +310,9 @@ nav{
   border-radius: 16px;
   border: none;
 }
+.btn-donate:hover{
+  background-color: #CB5ECD;
+}
 .btn-donate-select{
   font-weight: 700;
   font-size: 40px;
@@ -302,6 +322,9 @@ nav{
   border-radius: 16px;
   border: none;
   background-color: #95DCBB;
+}
+.btn-donate-select:hover{
+  background-color: #5C4ABF;
 }
 .other-amount{
   margin-top: 32px;
@@ -324,4 +347,68 @@ nav{
   font-size: 18px;
   color: #FFFFFF;
   border: none;
+}
+
+/* subscribe section */
+.subscribe{
+  margin-left: 160px;
+  margin-right: 160px;
+  width: 1280px;
+  height: 395px;
+  padding: 100px 80px;
+  margin-top: 80px;
+  border-radius: 24px;
+  background-color: #C6E4D6;
+  margin-bottom: 80px;
+}
+.subscribe-title{
+  font-weight: 700;
+  font-size: 40px;
+  width: 622px;
+  height: 48px;
+  color: #0E0E0E;
+  margin-left: 329px;
+  margin-right: 329px;
+  margin-top: 80px;
+  margin-bottom: 24px;
+  text-align: center;
+}
+.sub-description{
+  font-size: 16px;
+  width: 622px;
+  height: 48px;
+  color: #0E0E0E;
+  opacity: 70%;
+  margin-left: 329px;
+  margin-right: 329px;
+  margin-bottom: 24px;
+  text-align: center;
+}
+.sub-email{
+  width: 600px;
+  height: 55px;
+  margin-right: 0px;
+  border-radius: 8px;
+  justify-content: center;
+}
+.btn-final{
+  width: 150px;
+  height: 55px;
+  margin-left: 0px;
+  padding: 34px 17px;
+  border-radius: 8px;
+  background-color: #006A50;
+  font-weight: 600px;
+  font-size: 18px;
+  color: white;
+  justify-content: center;
+}
+.btn-final:hover{
+  background-color: #4159B8;
+}
+.text-down{
+  text-align: center;
+  font-size: 16px;
+  color: #0E0E0E;
+  opacity: 70%;
 }
